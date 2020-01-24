@@ -1,0 +1,42 @@
+1  goto to the folder in your computer and create a folder where you want to save file.
+   right click on the folder and open git bash here
+
+2  git init
+   //initialize empty git repository
+
+3  git remote add origin https://github.com/rajat-bag/ProjectDemo.git
+ 
+   //add the git repository on your local computer.if not working replace
+   origin by github    
+
+4  git pull orgin master
+ 
+   //pull it from github.if not working replace origin by github 
+        
+7  $ git remote -v
+ // shows repository in your github  
+      
+14  git status
+      
+16  git add text1.txt
+   
+17  git status
+        
+25  git log
+ 
+  
+26  git config --global user.email "rajat.rb57@gmail.com"
+   
+27  git config --global user.name "rajat-bag"
+   
+28  git add text1.txt
+   
+29  git commit -m "first file"
+   
+30  git push origin master
+   
+31  history
+     
+34  cat commands
+   
+35  history>>"commands1>txt"
